@@ -1,0 +1,17 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Simple book store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "lodash": "^4.17.5",
+    "mongoose": "*"
+  },
+  "author": "Sourabh Bhutani",
+  "license": "ISC"
+}
