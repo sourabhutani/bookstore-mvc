@@ -1,0 +1,10 @@
+    <!-- main content -->
+    <div id="content" ng-init="getBooks()">
+      <article ng-repeat="book in books">
+        <h2>{{book.title}}</h2>
+        <h3>{{book.author}}</h3>
+        <p>{{book.description | limitTo: 100}}</p>
+        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+      </article>
+    </div>
+    <!-- / content body -->

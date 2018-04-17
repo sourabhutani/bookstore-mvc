@@ -1,0 +1,36 @@
+    <!-- content body -->
+    <aside id="left_column" ng-controller="GenreCtrl" ng-init="getGenres()">
+      <h2 class="title">Categories</h2>
+      <nav>
+
+        <ul>
+          <li ng-repeat="genre in genres"><a href="#">{{genre.name}}</a></li>
+        </ul>
+      </nav>
+      <!-- /nav -->
+      
+      <h2 class="title">Featured books</h2>
+      <nav>
+
+        <ul>
+          <li ng-repeat="genre in genres"><a href="#"></a></li>
+        </ul>
+      </nav>
+      <!-- /nav -->
+
+
+      <h2 class="title">Get In Contact</h2>
+      <section class="last">
+        <address>
+        Full Name<br>
+        Address Line 1<br>
+        Address Line 2<br>
+        Town/City<br>
+        Postcode/Zip<br>
+        <br>
+        Tel: xxxx xxxx xxxxxx<br>
+        Email: <a href="#">contact@domain.com</a>
+        </address>
+      </section>
+      <!-- /section -->
+    </aside>

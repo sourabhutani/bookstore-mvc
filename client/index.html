@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Bookstore</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body ng-app="newWebApp">
+<div ng-include='"templates/header.html"'></div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <section id="slider"><a href="#"><img src="images/book.jpg" alt=""></a></section>
+    <div ng-include='"templates/sidebar.html"'></div>
+    <div ng-view></div>
+    <!-- main content -->
+  </div>
+</div>
+
+<div ng-include='"templates/footer.html"'></div>
+
+<!-- Vendor: Angular, followed by our custom Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+<!-- Our Website Javascripts -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

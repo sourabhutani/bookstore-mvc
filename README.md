@@ -1,3 +1,2 @@
-# Bookstore - MVC
-It's small app for book store create in MEAN with MVC pattern. 
-
+# Bookstore - (Node js with Angular1)
+It's small website of bookstore. All the apis are created in node as mvc and used angular 1 for dront end.
